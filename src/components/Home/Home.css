@@ -1,0 +1,27 @@
+.home-info{
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.home-info img{
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+.home-info p{
+    font-weight: 900;
+    font-family: sans-serif;
+}
+.quizzes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 30px 140px;
+}
+.quizzes img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: rgb(157, 156, 156);
+}
