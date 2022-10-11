@@ -19,6 +19,7 @@ const Quizzes = () => {
                     quizzes.map(quiz => <Quiz quiz={quiz} key={quiz.id}></Quiz>)
                 }
             </div>
+            
             <Toastify></Toastify>
             
         </div>
