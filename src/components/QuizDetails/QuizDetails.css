@@ -1,0 +1,12 @@
+.quiz-details-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.quiz-details-info img{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(218, 218, 218);
+    border-radius: 15px;
+}

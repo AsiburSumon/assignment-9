@@ -1,0 +1,16 @@
+.option ul{
+    display: flex;
+    justify-content: left;
+    margin-left: 20%;
+}
+.option ul button{
+    padding: 10px 40px;
+    width: 500px;
+    background-color: rgb(248, 202, 117);
+    border: 2px solid orangered;
+    border-radius: 15px;
+}
+.option ul button:hover{
+    background-color: orangered;
+    cursor: pointer;
+}

@@ -4,3 +4,18 @@
     margin: 20px 100px;
     padding: 15px;
 }
+.per-question-info{
+    display: flex;
+    justify-content: space-evenly;
+}
+.eye-btn{
+    background-color: white;
+    border: none;
+}
+.eye-btn:hover .eye-icon{
+    color: orange;
+    cursor: pointer;
+}
+.eye-icon{
+    width: 20px;
+}

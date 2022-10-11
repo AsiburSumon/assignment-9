@@ -4,7 +4,8 @@ import './Analysis.css';
 const Analysis = () => {
     return (
         <div>
-            <h4></h4>
+            
+
         </div>
     );
 };

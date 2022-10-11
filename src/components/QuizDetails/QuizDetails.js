@@ -6,10 +6,12 @@ import './QuizDetails.css'
 const QuizDetails = () => {
     const perQuiz = useLoaderData();
     const {questions} = perQuiz.data;
-    console.log(perQuiz.data.questions);
     return (
-        <div>
+        <div className='quiz-details'>
+            <div className='quiz-details-info'>
             <h2>{perQuiz.data.name}</h2>
+            <img src={perQuiz.data.logo} alt="" />
+            </div>
         <div className='questions'>
             {
                 questions.map(perQuestion=><Question key={perQuestion.id} perQuestion={perQuestion}></Question>)

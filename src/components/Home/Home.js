@@ -8,7 +8,7 @@ const Home = () => {
         <div>
             <div className='home-info'>
                 <img src={img} alt="" />
-                <p>There are some quiz here. Go and enjoy it.</p>
+                <p>There are some quiz for you. Go and enjoy it.</p>
             </div>
             <Quizzes></Quizzes>
             

@@ -9,4 +9,5 @@
 }
 .more-topics:hover{
     background-color: orangered;
+    cursor: pointer;
 }
