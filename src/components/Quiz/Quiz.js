@@ -1,6 +1,7 @@
 import React from 'react';
 import './Quiz.css';
 import {ArrowRightIcon } from '@heroicons/react/24/solid'
+import { Link } from 'react-router-dom';
 
 
 const Quiz = ({quiz}) => {
@@ -11,7 +12,7 @@ const Quiz = ({quiz}) => {
             <div className='quiz-info'>
                 <p>{name}</p>
                 <p>Total-quiz: <small>{total}</small></p>
-                <button>Start Now<ArrowRightIcon className="icon"/>
+                <button><Link to={`/topics/quiz/${id}`}>Start Now</Link> <ArrowRightIcon className="icon"/>
                 </button>
             </div>
         </div>

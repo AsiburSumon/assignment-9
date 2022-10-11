@@ -3,6 +3,11 @@
     border-radius: 20px;
     padding: 20px 0;
 }
+.quiz a{
+    text-decoration: none;
+    color: white;
+
+}
 .quiz-info{
     display: flex;
     justify-content: space-between;
