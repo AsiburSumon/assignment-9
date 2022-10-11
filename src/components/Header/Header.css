@@ -29,3 +29,10 @@
     padding: 5px;
     border-radius: 5px;
 }
+
+/* For mobile devices */
+@media only screen and (max-width: 688px){
+    .header{
+        display: block;
+    }
+}

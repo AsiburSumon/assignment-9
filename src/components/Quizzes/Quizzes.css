@@ -7,6 +7,15 @@
 .quizzes img{
     width: 200px;
     height: 200px;
-    border-radius: 10px;
+    border-radius: 15px;
     background-color: rgb(157, 156, 156);
+}
+
+/* for mobile devices */
+@media only screen and (max-width: 688px){
+     .quizzes{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 15px 20px;
+     }
 }

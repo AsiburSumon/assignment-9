@@ -11,13 +11,17 @@ const Analysis = ({quizzes}) => {
         .then(data=>setAllQuizzes(data.data))
     },[]);
     return (
-        <div>
-           <LineChart width={500} height={400} data={allQuizzes}>
-            <Line type="monotype" dataKey="total" stroke="#82ca9d"/>
-            <XAxis dataKey="name" />
-            <YAxis />
-            <Tooltip/>
-            </LineChart>
+        <div className='rechart'>
+            <h3>Topics are analysis by a chart</h3>
+           <div>
+                <LineChart width={500} height={400} data={allQuizzes}>
+                    <Line type="monotype" dataKey="total" stroke="#82ca9d"/>
+                    <XAxis dataKey="name" />
+                    <YAxis />
+                    <Tooltip/>
+                    </LineChart>
+           </div>
+            
         </div>
     );
 };
