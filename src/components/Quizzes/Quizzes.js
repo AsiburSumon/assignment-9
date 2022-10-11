@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Analysis from '../Analysis/Analysis';
+import Toastify from '../Toastify/Toastify';
 import Quiz from '../Quiz/Quiz';
 import './Quizzes.css'
 
@@ -19,7 +19,8 @@ const Quizzes = () => {
                     quizzes.map(quiz => <Quiz quiz={quiz} key={quiz.id}></Quiz>)
                 }
             </div>
-            <button className='more-topics'>More Topics</button>
+            <Toastify></Toastify>
+            
         </div>
     );
 };

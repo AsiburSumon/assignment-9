@@ -4,7 +4,7 @@ import {ArrowRightIcon } from '@heroicons/react/24/solid'
 
 
 const Quiz = ({quiz}) => {
-    const {name, logo, total} = quiz;
+    const {name, logo, total, id} = quiz;
     return (
         <div className='quiz'>
             <img src={logo} alt="" />

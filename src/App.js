@@ -5,6 +5,8 @@ import Home from './components/Home/Home';
 import Topics from './components/Topics/Topics';
 import Analysis from './components/Analysis/Analysis';
 import Blog from './components/Blog/Blog';
+import NotFound from './components/NotFound/NotFound';
+import QuizDetails from './components/QuizDetails/QuizDetails';
 
 function App() {
   const router = createBrowserRouter([
@@ -28,8 +30,16 @@ function App() {
         {
           path: '/blog',
           element: <Blog></Blog>
+        },
+        {
+          path: '/quiz/:quizId',
+          element: <QuizDetails></QuizDetails>
         }
       ]
+    },
+    {
+      path: '*',
+      element: <NotFound></NotFound>
     }
   ])
   return (
