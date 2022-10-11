@@ -5,6 +5,7 @@ import './Question.css'
 
 const Question = ({perQuestion}) => {
     const {question, options, correctAnswer} = perQuestion;
+    
     const handleEyeIcon= (correctAnswer) =>{
         return alert(correctAnswer)
     }
@@ -15,7 +16,7 @@ const Question = ({perQuestion}) => {
                 <button onClick={()=>handleEyeIcon(correctAnswer)} className='eye-btn'><EyeIcon className='eye-icon'></EyeIcon></button>
             </div>
             {
-                options.map(option=> <Option option={option} key={options.indexOf(option)}></Option>)
+                options.map(option=> <Option correctAnswer={correctAnswer} option={option} key={options.indexOf(option)}></Option>)
             }
         </div>
     );
