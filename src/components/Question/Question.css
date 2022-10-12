@@ -8,6 +8,9 @@
     display: flex;
     justify-content: space-evenly;
 }
+.per-question-info p{
+    margin-left: 80px;
+}
 .eye-btn{
     background-color: white;
     border: none;
@@ -18,4 +21,14 @@
 }
 .eye-icon{
     width: 20px;
+}
+
+/* For mobile devices */
+@media only screen and (max-width: 688px){
+    .perQuestion{
+        margin: 20px 5px;
+    }
+    .per-question-info p{
+        margin-left: 0;
+    }
 }

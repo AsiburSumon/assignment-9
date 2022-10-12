@@ -10,3 +10,10 @@
     padding-left: 15px;
     margin-bottom: 30px;
 }
+
+/* For mobile devices */
+@media only screen and (max-width: 688px){
+    .blog{
+        margin: 20px 0;
+    }
+}
