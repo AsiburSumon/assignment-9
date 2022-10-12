@@ -1,5 +1,14 @@
 # Quiz Panther-Assignment-9
 
+Project Link [https://luminous-daffodil-cbd0b5.netlify.app]
+
+. First load data from API.\
+. Then show the topics in home.\
+. In the topics there are some quizzes.\
+. In the quiz you can click the options that will tell you that are you correct or wrong.\
+. If you want to show the answer click the Eye.\
+. There is a analysis route where try to show how many quizzes are in per topic. 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
